@@ -1,6 +1,3 @@
-
-CREATE DATABASE IF NOT EXISTS projects;
-
 USE projects;
 
 SELECT 
@@ -23,8 +20,8 @@ DESCRIBE hr;
 -- Convert the birhtdates from text to a standard date format
 UPDATE hr
 SET birthdate = CASE 
-			WHEN birthdate LIKE '%/%'THEN DATE_FORMAT(str_to_date(birthdate,'%m/%d/%Y'), '%Y-%m-%d')
-            WHEN birthdate LIKE '%-%'THEN DATE_FORMAT(str_to_date(birthdate,'%m-%d-%Y'), '%Y-%m-%d')
+		WHEN birthdate LIKE '%/%'THEN DATE_FORMAT(str_to_date(birthdate,'%m/%d/%Y'), '%Y-%m-%d')
+           	WHEN birthdate LIKE '%-%'THEN DATE_FORMAT(str_to_date(birthdate,'%m-%d-%Y'), '%Y-%m-%d')
             ELSE NULL
             END;
     
@@ -36,8 +33,8 @@ MODIFY COLUMN birthdate DATE;
 -- Convert the hire dates from text to a standard date format
 UPDATE hr
 SET hire_date = CASE 
-			WHEN hire_date LIKE '%/%'THEN DATE_FORMAT(str_to_date(hire_date,'%m/%d/%Y'), '%Y-%m-%d')
-            WHEN birthdate LIKE '%-%'THEN DATE_FORMAT(str_to_date(hire_date,'%m-%d-%Y'), '%Y-%m-%d')
+		WHEN hire_date LIKE '%/%'THEN DATE_FORMAT(str_to_date(hire_date,'%m/%d/%Y'), '%Y-%m-%d')
+           	WHEN hire_date LIKE '%-%'THEN DATE_FORMAT(str_to_date(hire_date,'%m-%d-%Y'), '%Y-%m-%d')
             ELSE NULL
             END;
 
