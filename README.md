@@ -18,18 +18,22 @@ This data analysis project aims to provide insights into employee information, i
 
 ### Data Source
 HR Data: The dataset used for this analysis is the "Human Resources.xlsx" file containing HR data with over 22,000 rows from year 2000 to 2020.
-The original data containes 13 columns as follows:
-id
-first_name
-last_name	birthdate
-gender	race
-department
-jobtitle
-location
-hire_date
-termdate
-location_city
-location_state
+After importing the original data contained 13 columns as follows:
+|Column Name|Data Type|
+|-----------|----------|
+|ï»¿id|text|
+|first_name|text|
+|last_name|text|	
+|birthdate|text|
+|gender|text|
+|race|text|
+|department|text|
+|jobtitle|text|
+|location|text|
+|hire_date|text|
+|termdate|text|
+|location_city|text|
+|location_state|text|
 
 
 ### Tools
