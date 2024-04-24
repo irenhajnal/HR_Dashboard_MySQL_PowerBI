@@ -115,7 +115,7 @@ ORDER BY year ASC;
 
 
 ### Data Visualization
-The data sources for developing the dashboard in Power BI I are the .csv files exported from MySQL.
+The data sources for developing the dashboard in Power BI are the .csv files exported from MySQL.
 
 #### Charts
 
