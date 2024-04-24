@@ -144,5 +144,6 @@ The analysis results are summarized as follows:
 10. The Auditing department has the highest turnover rate followed by Legal. The lowest turn over rates are in the Business Developement and Marketing departments.
 11. The average tenure for each department is about 8 years with Legal and Auditing having the highest and Services, Sales and Marketing having the lowest.
 
-
+## Reference
+Guided Project: [Youtube](https://www.youtube.com/watch?v=PzyZI9uLXvY)
 
